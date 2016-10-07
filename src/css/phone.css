@@ -1,0 +1,51 @@
+body {
+	font-size: 12pt;
+}
+
+div#page-container {
+	max-width: 90%;
+	margin: 0 auto;
+	/*padding-top   : 10px;
+    padding-bottom: 50px;
+    padding: 10px 20px 50px 20px;*/
+	position: relative;
+}
+
+ul#page-menu li a {
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+}
+
+ul#page-menu li a {
+	font-size: 1.2em;
+}
+
+div#social-links a {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+ul#posts-list li a {
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+
+ul#posts-list li:nth-child(1) a {
+	padding-top: 0 !important;
+}
+
+div#content-divider {
+	height: 40px;
+}
+
+div.cs-image-container {
+	margin-bottom: 10px;
+}
+
+a.cs-overlay span {
+	display: none;
+}
+
+div#post_gallery div.img-cont {
+	clear: none !important;
+}

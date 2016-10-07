@@ -1,0 +1,132 @@
+@font-face {
+	font-family: "Andale Mono";
+	src: url("AndaleMono.ttf");
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+p {
+	word-wrap: break-word;
+	margin: 0;
+}
+
+body {
+	font-family: "Andale Mono", Andale Mono, Courier New, Arial, Helvetica;
+	overflow-y: scroll;
+}
+
+ul#page-menu li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+	text-transform: lowercase;
+	display: inline-block;
+	height: 1em;
+}
+
+ul#page-menu li a.active {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+div#social-links a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+	font-weight: bold;
+}
+
+div.cs-image-container {
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+a.cs-overlay {
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+a.cs-overlay span {
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight: bold;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+div.cs-image-container img {
+	max-width: 100%;
+	height: auto;
+}
+
+div#page-content {
+	line-height: 1.2em;
+	overflow-y: auto;
+}
+
+div#page-content img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+ul#posts-list li a {
+	text-decoration: none;
+	display: inline-block;
+	color: #000;
+}
+
+div.post-container h4, div.post-container h5 {
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+div.post-container div.work-post-content {
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+div.post-container div.img-cont {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+div.post-container div#post_gallery {
+	overflow: auto;
+}
+
+div.post-container div#post_gallery div.img-cont {
+	height: 150px;
+}
+
+div.post-container div#post_gallery div.img-cont a {
+	height: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+img.gall-thumb {
+	max-height: 150px;
+	max-width: 150px;
+}
+
+div.pub-box {
+	margin-bottom: 2em;
+}

@@ -1,0 +1,51 @@
+body {
+	font-size: 13pt;
+}
+
+div#page-container {
+	width: 70%;
+	margin-left: 3%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+ul#page-menu li a {
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+ul#page-menu li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+div#content-divider {
+	height: 60px;
+}
+
+div.cs-image-container {
+	margin-bottom: 10px;
+}
+
+a.cs-overlay {
+	color: #000;
+	display: none;
+	background: #FFF;
+	opacity: 0.85;
+	filter: alpha(opacity=85);
+}
+
+ul#posts-list li a {
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+}
+
+ul#posts-list li:nth-child(1) a {
+	padding-top: 0 !important;
+}
+
+ul#posts-list li a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
