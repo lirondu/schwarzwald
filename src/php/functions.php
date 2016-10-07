@@ -1,7 +1,7 @@
 <?php
 
 $DB_CON = mysqli_connect("localhost", "root", "", "cs_main");
-//$DB_CON = mysqli_connect("localhost", "lirondug_dev1", "Password123!", "lirondug_devsite1");
+//$DB_CON = mysqli_connect("localhost", "chrschnet001", "4fb86bc6", "chrschnet001");
 
 mysqli_set_charset($DB_CON, "utf8");
 
