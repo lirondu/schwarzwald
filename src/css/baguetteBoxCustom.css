@@ -12,7 +12,7 @@ div#baguetteBox-overlay {
 }
 
 .baguetteBox-button, .baguetteBox-button:hover {
-	background: none;
+	background: none !important;
 	outline: none !important;
 	z-index: 2000;
 	border: 0 !important;
